@@ -22,7 +22,7 @@ TODO, version 1.0::::
 
 namespace SQLQueryStress
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
         private const string Dashes = "---";
 
@@ -88,7 +88,7 @@ namespace SQLQueryStress
 
         private SqlControl sqlControl1;
 
-        public Form1(CommandLineOptions runParameters) : this()
+        public FormMain(CommandLineOptions runParameters) : this()
         {
             _runParameters = runParameters;
 
@@ -120,7 +120,7 @@ namespace SQLQueryStress
             }
         }
 
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
 
